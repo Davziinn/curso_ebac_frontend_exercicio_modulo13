@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>Exercício Módulo 13</title>
+    <style>
+        .container img{
+            width: 100%;
+            height: auto;
+        }
+        .carousel-item {
+            height: 500px;
+        }
+        .carousel-item img {
+            object-fit: cover; 
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade">
+            <div class="carousel-inner">
+                <div data-bs-interval="1000" class="carousel-item active">
+                    <img src="./img/img1.png" alt="img">
+                    <div class="carousel-caption">
+                        <h2>IMAGEM 1</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img src="./img/img2.jpeg" alt="img">
+                    <div class="carousel-caption">
+                        <h2>IMAGEM 2</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img src="./img/img3.png" alt="img">
+                    <div class="carousel-caption">
+                        <h2>IMAGEM 3</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        CABEÇALHO DO CARD 1
+                    </header>
+                    <img src="https://via.placeholder.com/300" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">TÍTULO DO CARD 1</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia obcaecati nobis enim, dolorum molestiae provident excepturi fuga veniam. Dolorum suscipit error eligendi aperiam possimus velit unde hic corrupti accusantium. Reiciendis!
+                        </p>
+                        <a href="#" class="btn btn-primary">LER MAIS</a>
+                        <footer class="card-footer">
+                            Postado em <time>28/07/2024</time>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        CABEÇALHO DO CARD 2
+                    </header>
+                    <img src="https://via.placeholder.com/300" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">TÍTULO DO CARD 2</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia obcaecati nobis enim, dolorum molestiae provident excepturi fuga veniam. Dolorum suscipit error eligendi aperiam possimus velit unde hic corrupti accusantium. Reiciendis!
+                        </p>
+                        <a href="#" class="btn btn-primary">LER MAIS</a>
+                        <footer class="card-footer">Postado em <time>29/07/2024</time></footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        CABEÇALHO DO CARD 3
+                    </header>
+                    <img src="https://via.placeholder.com/300" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">TÍTULO DO CARD 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia obcaecati nobis enim, dolorum molestiae provident excepturi fuga veniam. Dolorum suscipit error eligendi aperiam possimus velit unde hic corrupti accusantium. Reiciendis!
+                        </p>
+                        <a href="#" class="btn btn-primary">LER MAIS</a>
+                        <footer class="card-footer">Postado em <time>30/07/2024</time></footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        CABEÇALHO DO CARD 4
+                    </header>
+                    <img src="https://via.placeholder.com/300" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">TÍTULO DO CARD 4</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia obcaecati nobis enim, dolorum molestiae provident excepturi fuga veniam. Dolorum suscipit error eligendi aperiam possimus velit unde hic corrupti accusantium. Reiciendis!
+                    </p>
+                    <a href="#" class="btn btn-primary">LER MAIS</a>
+                    <footer class="card-footer">
+                        Postado em <time>31/07/2024</time>
+                    </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        CABEÇALHO DO CARD 5
+                    </header>
+                    <img src="https://via.placeholder.com/300" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">TÍTULO DO CARD 5</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia obcaecati nobis enim, dolorum molestiae provident excepturi fuga veniam. Dolorum suscipit error eligendi aperiam possimus velit unde hic corrupti accusantium. Reiciendis!
+                        </p>
+                        <a href="#" class="btn btn-primary">LER MAIS</a>
+                        <footer class="card-footer">
+                            Postado em <time>01/08/2024</time>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        CABEÇALHO DO CARD 6
+                    </header>
+                    <img src="https://via.placeholder.com/300" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            TÍTULO DO CARD 6
+                        </h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia obcaecati nobis enim, dolorum molestiae provident excepturi fuga veniam. Dolorum suscipit error eligendi aperiam possimus velit unde hic corrupti accusantium. Reiciendis!
+                        </p>
+                        <a href="#" class="btn btn-primary">LER MAIS</a>
+                        <footer class="card-footer">
+                            Postado em <time>02/08/2024</time>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
